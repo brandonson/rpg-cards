@@ -42,6 +42,16 @@ page[size="25x35"] {
     height: 3.5in;
 }
 
+page[size="3x5"] {
+    width: 3in;
+    height: 5in;
+}
+
+page[size="5x3"] {
+    width: 5in;
+    height: 3in;
+}
+
 /* Default card size */
 .card {
     width:2.5in;
@@ -87,6 +97,26 @@ page[size="25x35"] {
 .card-size-75x50 .card-back-icon {
     width: 2in;
     height: 2in;
+}
+
+.card-size-3x5 {
+    width: 3in;
+    height: 5in;
+}
+
+.card-size-3x5 .card-back-icon{
+    width: 1in;
+    height: 1in;
+}
+
+.card-size-5x3 {
+    width: 5in;
+    height: 3in;
+}
+
+.card-size-5x3 .card-back-icon{
+    width: 1in;
+    height: 1in;
 }
 
 /* Card sizes that fill out the entire sheet of paper (minimal margins) */
